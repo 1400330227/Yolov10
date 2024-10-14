@@ -1,0 +1,13 @@
+path: ../yolov10/datasets/steelPlate # dataset root dir
+train: train/images # train images (relative to 'path') 4 images
+val: val/images # val images (relative to 'path') 4 images
+test: # test images (optional)
+
+# Classes (80 COCO classes)
+names:
+  0: crazing, #龟裂
+  1: inclusion, #杂质
+  2: patches, #修补
+  3: pitted_surface, #凹凸不平
+  4: rolled-in_scale, # 翻卷
+  5: scratches # 划痕
