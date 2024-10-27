@@ -1,0 +1,4 @@
+fire
+smoke
+_background_
+other
